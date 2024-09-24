@@ -39,10 +39,11 @@ var nomecomprador = entrada ("Qual seu nome?");
 var idadeComprador = entrada("qual é a sua idade?");
 
 if(idadeComprador < 18){
-  console.log("infelizmente você é menor e idade não podemos vender nossas passagens")
+  
+console.log(`Ola senhor (a) ${nomecomprador} sua idade não corresponde com as diretrizes`);
 }
+
 if(idadeComprador >= 18){
-  console.log("Qual o seu destino?")
-}
+  console.log(`Ola ${nomecomprador} qual destes países vocẽ gostaria de viajar?`}
 
 
